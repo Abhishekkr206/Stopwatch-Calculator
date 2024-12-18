@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <h1 id="text">Stopwatch</h1>
+    <div class="mdiv">
+        <div id="top-cont">
+            <h1 id="display">00:00:00.00</h1>
+            <img src="photos/clock(DB2).png" id="circleimg" height="300px">
+            <div class="pointer" id="pointer"></div>
+        </div>
+        <div class="lap-div">
+            <ul></ul>
+        </div>
+        <div class="btndiv">
+            <button class="btn" id="reset" onclick="reset()"><img src="photos/restart_alt_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Reset"></button>
+            <button class="btn" id="start" onclick="start()"><img src="photos/play_arrow_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="play"></button>
+            <button class="btn" id="stop" onclick="stop()"><img src="photos/pause_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="pause"></button>
+            <button class="lap" onclick="lap()"><img src="photos/flag_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="lap"></button>
+        </div>
+    </div>
+    <a href="calc.html" id="calc"><img src="photos/calculate_50dp_062342_FILL0_wght400_GRAD0_opsz48.svg" alt="Calculater"></a>
+    <script src="stopwatch.js"></script>
+</body>
+</html>

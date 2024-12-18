@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <h1 id="text">Calculator</h1>
+    <div class="mmdiv">
+    <div class="mdiv">
+        <div><h1 id="display"></h1></div>
+        <div class="btndiv">
+            <button class="logical_op" onclick="cleardisplay()">C</button>
+            <button class="logical_op" onclick="deletelast()"><</button>
+            <button class="logical_op" onclick="appendvalue('/')">/</button>
+            <button class="logical_op" onclick="appendvalue('%')">%</button>
+            <button class="number" onclick="appendvalue('7')">7</button>
+            <button class="number" onclick="appendvalue('8')">8</button>
+            <button class="number" onclick="appendvalue('9')">9</button>
+            <button class="logical_op" onclick="appendvalue('*')">*</button>
+            <button class="number" onclick="appendvalue('4')">4</button>
+            <button class="number" onclick="appendvalue('5')">5</button>
+            <button class="number" onclick="appendvalue('6')">6</button>
+            <button class="logical_op" onclick="appendvalue('-')">-</button>
+            <button class="number" onclick="appendvalue('1')">1</button>
+            <button class="number" onclick="appendvalue('2')">2</button>
+            <button class="number" onclick="appendvalue('3')">3</button>
+            <button class="logical_op" onclick="appendvalue('+')">+</button>
+            <button class="number" onclick="appendvalue('00')">00</button>
+            <button class="number" onclick="appendvalue('0')">0</button>
+            <button class="number"onclick="appendvalue('.')">.</button>
+            <button class="logical_op" onclick="calculate()">=</button>
+        </div>
+    </div>
+</div>
+<a href="stopwatch.html" id="stopwatch"><img src="photos/timer_10_alt_1_50dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="stopwatch"></a>
+</body>
+<script src="calc.js"></script>
+</html>
