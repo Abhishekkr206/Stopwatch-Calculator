@@ -90,7 +90,7 @@ function lap(){
    lapdiv.appendChild(lapss)
    lapss.classList.add('lapadd')
 
-   if (newmin => 1) {
+   if (newmin > 0) {
       lapss.innerHTML = `+ ${newmin}:${newsec}.${newmillsec}`;
   }
   else {
