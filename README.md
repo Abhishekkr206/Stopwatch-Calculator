@@ -1,39 +1,59 @@
-# ⏱️ Stopwatch & Calculator
+# Stopwatch || Calculator
 
-A simple web project that includes two tools:
+A simple project combining a Stopwatch with lap functionality and a Basic Calculator.
 
-- **Stopwatch** with start, pause, reset, and lap features.
-- **Calculator** for basic arithmetic operations.
+## Live Demo
 
-Built using **HTML, CSS, and JavaScript**.
+[https://abhishekkr206.github.io/Stopwatch-Calculator/](https://abhishekkr206.github.io/Stopwatch-Calculator/)
 
----
+## Features
 
-## 🔗 Live Demo
-https://abhishekkr206.github.io/Stopwatch-Calculator/
+### **Stopwatch**
 
----
+* Start, pause, and reset functionality.
+* Lap recording.
+* Animated moving dot completing one full circle in 60 seconds.
 
-## 📌 Features
+### **Calculator**
 
-### 🕒 Stopwatch
-- Start, pause, and reset
-- Lap recording
-- Smooth rotating blue dot animation (one full circle every 60s)
-- Clean and easy UI
+* Addition, subtraction, multiplication, and division.
+* Clear button.
+* Clean and easy-to-use UI.
 
-### 🧮 Calculator
-- Add, subtract, multiply, divide
-- Clear button
-- Simple layout for quick use
+## Tech Stack
 
----
+* **HTML**
+* **CSS**
+* **JavaScript**
 
-## 🛠️ Tech Used
-- HTML  
-- CSS  
-- JavaScript  
+## Project Structure
 
----
+```
+project/
+├── index.html       # Stopwatch page
+├── stopwatch.css    # Stopwatch styles
+├── stopwatch.js     # Stopwatch logic
+├── calc.html        # Calculator page
+├── calc.css         # Calculator styles
+├── calc.js          # Calculator logic
+└── photos/          # Required images
+```
 
-## 📂 Project Structure
+## How to Use (Clone and Run)
+
+1. Clone the repository
+   git clone https://github.com/Abhishekkr206/Stopwatch-Calculator.git
+
+2. Open the project folder
+   cd Stopwatch-Calculator
+
+3. To use the Stopwatch
+   Open index.html in your browser
+
+4. To use the Calculator
+   Open calc.html in your browser
+
+
+## License
+
+This project is open-source and free to use.
